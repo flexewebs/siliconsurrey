@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silicon Surrey Framework</title>
+    <style>
+        :root {
+            --universe: #0e0e12;
+            --white: #ffffff;
+            --purpose-blue: #2463a8;
+        }
+
+        body {
+            background-color: var(--universe);
+            color: var(--white);
+            font-family: 'Inter', -apple-system, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .widget-container {
+            position: relative;
+            width: 90vw;
+            max-width: 550px;
+            aspect-ratio: 1/1;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        #info-panel {
+            position: absolute;
+            bottom: -20px;
+            text-align: center;
+            width: 100%;
+            pointer-events: none;
+        }
+
+        h3 { margin: 0; text-transform: uppercase; letter-spacing: 2px; font-size: 1.2rem; }
+        p { margin: 5px 0 0; opacity: 0.8; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <div class="widget-container">
+        <canvas id="hexCanvas"></canvas>
+        <div id="info-panel">
+            <h3 id="info-title">Designed Framework</h3>
+            <p id="info-desc">Hover to explore the ecosystem</p>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('hexCanvas');
+        const ctx = canvas.getContext('2d');
+        const infoTitle = document.getElementById('info-title');
+        const infoDesc = document.getElementById('info-desc');
+
+        const config = {
+            1: { label: "Purpose", num: "1", color: "#2463a8", desc: "Create sustainable companies." },
+            2: { label: "People", num: "2", color: "#e4442c", desc: "Align your team. People make decisions." },
+            3: { label: "Systems", num: "3", color: "#8b1a10", desc: "Optimise systems. Ecosystem thinking works." },
+            4: { label: "Innovation", num: "4", color: "#4dae7e", desc: "Innovation enables progress." },
+            5: { label: "Products", num: "5", color: "#54b4b4", desc: "Produce progressive products." },
+            6: { label: "Money", num: "6", color: "#f3ad44", desc: "Optimise company cashflow." },
+            7: { label: "Growth", num: "7", color: "#c13054", desc: "Design natural growth." }
+        };
+
+        let radius = 0;
+        let centers = [];
+        let hoveredId = null;
+
+        function init() {
+            const dpr = window.devicePixelRatio || 1;
+            const size = canvas.parentElement.clientWidth;
+            canvas.width = size * dpr;
+            canvas.height = size * dpr;
+            ctx.scale(dpr, dpr);
+            
+            // Perfect radius calculation for the container
+            radius = size / 5.2; 
+            calculateCenters(size / 2, size / 2);
+            draw();
+        }
+
+        function calculateCenters(cx, cy) {
+            centers = [];
+            // Trig constants for perfect hex spacing
+            const hDist = radius * 1.5; 
+            const vDist = radius * Math.sqrt(3) / 2;
+
+            // 1: Center
+            centers.push({ id: 1, x: cx, y: cy });
+            // 2: Top Center
+            centers.push({ id: 2, x: cx, y: cy - (vDist * 2) });
+            // 3: Top Left
+            centers.push({ id: 3, x: cx - hDist, y: cy - vDist });
+            // 4: Bottom Left
+            centers.push({ id: 4, x: cx - hDist, y: cy + vDist });
+            // 5: Bottom Center
+            centers.push({ id: 5, x: cx, y: cy + (vDist * 2) });
+            // 6: Bottom Right
+            centers.push({ id: 6, x: cx + hDist, y: cy + vDist });
+            // 7: Top Right
+            centers.push({ id: 7, x: cx + hDist, y: cy - vDist });
+        }
+
+        function drawHex(x, y, r, color, label, num, isHovered) {
+            ctx.beginPath();
+            for (let i = 0; i < 6; i++) {
+                const angle = (Math.PI / 3) * i;
+                ctx.lineTo(x + r * Math.cos(angle), y + r * Math.sin(angle));
+            }
+            ctx.closePath();
+            ctx.fillStyle = color;
+            ctx.fill();
+            
+            if (isHovered) {
+                ctx.strokeStyle = "white";
+                ctx.lineWidth = 5;
+                ctx.stroke();
+            }
+
+            ctx.fillStyle = "white";
+            ctx.textAlign = "center";
+            ctx.font = "500 13px 'Inter'";
+            ctx.fillText(label, x, y - (r * 0.25));
+            ctx.font = "800 48px 'Inter'";
+            ctx.fillText(num, x, y + (r * 0.35));
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            centers.forEach(c => {
+                const data = config[c.id];
+                drawHex(c.x, c.y, radius * 0.98, data.color, data.label, data.num, hoveredId === c.id);
+            });
+        }
+
+        canvas.addEventListener('mousemove', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const mx = e.clientX - rect.left;
+            const my = e.clientY - rect.top;
+            
+            let foundId = null;
+            centers.forEach(c => {
+                const dx = mx - c.x;
+                const dy = my - c.y;
+                // Hexagonal hit detection approximation
+                if (Math.sqrt(dx*dx + dy*dy) < radius * 0.9) foundId = c.id;
+            });
+
+            if (foundId !== hoveredId) {
+                hoveredId = foundId;
+                if (foundId) {
+                    infoTitle.innerText = config[foundId].label;
+                    infoDesc.innerText = config[foundId].desc;
+                    infoTitle.style.color = config[foundId].color;
+                } else {
+                    infoTitle.innerText = "Designed Framework";
+                    infoTitle.style.color = "white";
+                    infoDesc.innerText = "Hover to explore the ecosystem";
+                }
+                draw();
+            }
+        });
+
+        window.addEventListener('resize', init);
+        init();
+    </script>
+</body>
+</html>
