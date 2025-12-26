@@ -1,0 +1,145 @@
+h2 { font-size: calc(var(--mainFontSize) * 4); line-height: calc(var(--mainFontSize) * 4); } 
+
+.box { border: 1px solid black; }
+
+section.full { min-height: 100vh; }
+
+/* Navigation */
+nav { box-shadow: none; height: 11vh; background: var(--purpose); }
+nav svg { margin: 20px 0 0 3em; }
+nav a { float: right; margin: 15px 3em 0 0; }
+nav a:hover { background: var(--purpose); text-decoration: none; color: var(--possibility); }
+
+/* Brand navigation */
+.navigation { padding: 30px 0; background: var(--purpose); border-radius: 0 100px 0 0; }
+.navigation * { color: var(--possibility);}
+.navigation h2 { margin: 50px 0 30px 0;}
+.navigation h3 { margin-bottom: 20px;}
+.navigation .row .col.m3 { padding: 0;}
+.navigation li { margin: 0 0 20px 0; padding: 0 20px 0 0;}
+.navigation li.active a { background: var(--possibility); color: var(--universe); }
+.navigation a { font-family: var(--secondaryFont); text-align: center; display: block; color: var(--possibility); text-decoration: none; border: 1px solid var(--possibility); padding: 10px 20px; border-radius: 0 100px 100px 100px; width: 100%; }
+.navigation a:hover { background: var(--possibility); color: var(--universe); font-weight: bold; }
+
+/* Footer */
+footer { background: var(--universe); }
+
+/* Slide */
+section.intro { min-height: 89vh !important; display: grid; align-content: center; }
+section.intro h1 { font-family: var(--tertiaryFont); text-align: center; font-size: calc(var(--mainFontSize) * 12); margin-top: -11vh; color: var(--possibility);}
+section.hero { min-height: 100vh !important; }
+
+
+/* Brand home page */
+.page-brand-home { background: var(--purpose);}
+
+/* Logo page */
+.page-brand-logo { background: var(--purpose); }
+.page-brand-logo .multicolour, .page-brand-logo .outline, .page-brand-logo .emblem { padding: 50px 0; }
+.page-brand-logo .logoTypes .row { display: flex; align-items: center; }
+.page-brand-logo .logoTypes .description { padding-right: 70px; }
+.page-brand-logo .logoTypes { background: var(--possibility); height: auto; }
+
+/* Principles page */
+.page-brand-principles { background: var(--purpose);}
+.page-brand-principles section { padding: 100px 0 0 0; min-height: 100vh;}
+.page-brand-principles section * { color: var(--possibility); }
+.page-brand-principles section.on { background: var(--possibility); border-radius: 140px 0 140px 0; }
+.page-brand-principles section.on * { color: var(--universe); }
+.page-brand-principles section h2 { font-size: calc(var(--mainFontSize) * 6); margin: 1em 0 0.2em 0;}
+.page-brand-principles section.on h2 { color: var(--purpose);}
+.page-brand-principles section span.number { height: 220px; font-size: calc(var(--mainFontSize) * 15); color: var(--sky) !important; font-family: var(--primaryFont); float: left; margin: -7px 30px 0 0; }
+.page-brand-principles section h3 { font-size: calc(var(--mainFontSize) * 2.3); margin-bottom: 0.5em;}
+
+/* Process page */
+.page-brand-process { background: var(--purpose);}
+.page-brand-process * { color: var(--possibility);}
+.page-brand-process h2 { font-size: calc(var(--mainFontSize) * 5); margin: 0 0 20px 0; } 
+.page-brand-process span.number { text-align: center; font-size: calc(var(--mainFontSize) * 15); color: var(--sky) !important; font-family: var(--primaryFont); margin: -66px 20px 0 0; float: left; font-weight: bold; }
+
+/* Colours page */
+.page-brand-colours section.intro h1 { color: var(--purpose);}
+.page-brand-colours h2 { margin-bottom: 20px;}
+.page-brand-colours .colourBox { padding: 20px; min-height: 200px; border-radius: 0 50px 0 0; }
+.page-brand-colours .expression .colourBox { min-height: 120px;  }
+.page-brand-colours .colourBox.purposeBack * { color: var(--possibility);}
+.page-brand-colours nav a { color: var(--universe);}
+.page-brand-colours nav { background: var(--possibility);}
+.page-brand-colours .description { padding: 20px; border-radius: 0 0 0 50px; } 
+.page-brand-colours .description p.flow-text { font-size: 120%; margin-left: 10px; }
+.page-brand-colours .description p.meaning { margin-left: 0; min-height: 130px; }
+.page-brand-colours .expression .description p.meaning { margin-left: 0; min-height: 60px; }
+.page-brand-colours .description.purpose { border: 1px solid var(--purpose); }
+.page-brand-colours .description.sky { border: 1px solid var(--sky); }
+.page-brand-colours .description.water { border: 1px solid var(--water); }
+.page-brand-colours .description.ice { border: 2px solid var(--ice); }
+.page-brand-colours .description.cloud { border: 1px solid var(--cloud); }
+.page-brand-colours .description.dust { border: 1px solid var(--dust); }
+.page-brand-colours .description.silver { border: 1px solid var(--silver); }
+.page-brand-colours .description.universe { border: 1px solid var(--universe); }
+.page-brand-colours .description.possibility { border: 1px solid var(--cloud); }
+.page-brand-colours .possibilityBack { border: 1px solid var(--cloud); border-bottom: none; }
+.page-brand-colours .description.people { border: 1px solid var(--people); }
+.page-brand-colours .description.systems { border: 1px solid var(--systems); }
+.page-brand-colours .description.innovation { border: 1px solid var(--innovation); }
+.page-brand-colours .description.products { border: 1px solid var(--products); }
+.page-brand-colours .description.money { border: 1px solid var(--money); }
+.page-brand-colours .description.growth { border: 1px solid var(--growth); }
+.page-brand-colours .colourBox.silverBack * { color: var(--possibility);}
+.page-brand-colours .colourBox.universeBack * { color: var(--possibility);}
+.page-brand-colours .colourBox.systemsBack * { color: var(--possibility);}
+.page-brand-colours .colour { margin-bottom: 20px;}
+.page-brand-colours section.hero .shape { float: left; }
+.page-brand-colours section.hero a { height: 30vh; width: 100%; float: left; color: var(--possibility); font-size: calc(var(--mainFontSize) * 2.3); }
+.page-brand-colours section.hero a span { float: left; width: 100%; height: 100%; font-family: var(--primaryFont); text-align: center; line-height: 23vh; }
+.page-brand-colours section.hero a.possibilityBack span, .page-brand-colours section.hero a.cloudBack span, .page-brand-colours section.hero a.iceBack span, .page-brand-colours section.hero a.productsBack span, .page-brand-colours section.hero a.moneyBack span, .page-brand-colours section.hero a.waterBack span { color: var(--universe); }
+.page-brand-colours section.hero .possibilityBack { border-bottom: 1px solid var(--cloud);} 
+.page-brand-colours section.hero .shape { position: relative; width: 19%; margin: 0.5%; }
+.page-brand-colours section.hero .shape:after { content: ""; display: block; padding-bottom: 100%; }
+.page-brand-colours section.hero a { position: absolute; width: 100%; height: 100%; line-height: 100%; }
+.page-brand-colours section.full { display: flex; align-items: center; }
+.page-brand-colours section.full .content { width: 100%; }
+
+
+/* Tablet devices */
+@media only screen and (max-width : 992px) {
+
+    .page-brand-colours section.hero a span { line-height: 10vh; }
+}
+
+/* Mobile styles */
+@media only screen and (max-width : 600px) {
+
+    /* Navigation */    
+    nav svg { margin: 20px 0 0 1em; }
+    nav a { float: right; margin: 15px 1em 0 0; }
+
+    /* Brand navigation */
+    .navigation li { float: left; width: 50%; }
+    .navigation h2 { margin: 30px 0 0 0; }
+    .navigation h3 { padding: 0; margin: 30px 0 10px 0; }
+
+    /* Slide */
+    section.intro h1 { font-size: calc(var(--mainFontSize) * 4); }
+
+    /* Principles page */
+    .page-brand-principles section { padding: 50px 0 0 0; min-height: 100vh;}
+    .page-brand-principles section.on { background: var(--possibility); border-radius: 70px 0 70px 0; }
+    .page-brand-principles section h2 { font-size: calc(var(--mainFontSize) * 2.5); margin-top: 1.5em; }    
+    .page-brand-principles section span.number { height: 200px; font-size: calc(var(--mainFontSize) * 14); }
+    .page-brand-principles section h3 { font-size: calc(var(--mainFontSize) * 1.5); margin: 0.5em 0 1.5em 0;}
+
+    /* Logo page */
+    .page-brand-logo .logoTypes .description { padding: 0 20px 50px 20px; text-align: center; }
+    .page-brand-logo .logoTypes .row { display: inline; }
+
+    /* Process page */
+    .page-brand-process h2 { font-size: calc(var(--mainFontSize) * 3.5); margin: 0 0 10px 0; } 
+    .page-brand-process span.number { font-size: calc(var(--mainFontSize) * 8); margin: -30px 0 0 0; }
+
+    /* Colours page */
+    .page-brand-colours section.hero a { font-size: calc(var(--mainFontSize) * 2); } 
+    .page-brand-colours section.hero .shape { position: relative; width: 32%; margin: 0.5%; }
+    .page-brand-colours section.hero a span { line-height: 15vh; }
+
+}

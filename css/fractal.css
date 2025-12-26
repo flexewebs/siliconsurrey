@@ -1,0 +1,186 @@
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 { font-family: var(--primaryFont); }
+  h1 { font-size: calc(var(--mainFontSize) * 4); }
+  h2 { font-size: calc(var(--mainFontSize) * 3); line-height: calc(var(--mainFontSize) * 4.4); }
+  h3 { font-size: calc(var(--mainFontSize) * 2); }
+  h4 { font-size: calc(var(--mainFontSize) * 1.5); }
+  h5 { font-size: calc(var(--mainFontSize) * 1.3); }
+  h6 { font-size: calc(var(--mainFontSize) * 1.1); }
+  p { font-family: var(--secondaryFont);} 
+  a { color: var(--growth); text-decoration: underline; }
+  .textGradient { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  
+  /* Forms */
+  
+  /* Style Placeholders */
+  ::-webkit-input-placeholder { color: var(--dust); }
+  ::-moz-placeholder { color: var(--dust); }
+  :-ms-input-placeholder { color: var(--dust); }
+  ::-ms-input-placeholder { color: var(--dust); }
+  ::placeholder { color: var(--dust); }
+  
+  /* ATOMS */
+  
+  /* Tag */
+  .tag { border: 1px solid var(--cloud); border-radius: 30px 30px 0 30px; display: inline-block; height: 50px; line-height: 28px; font-size: calc(var(--mainFontSize) * 1.2); padding: 10px 20px; font-family: var(--secondaryFont); margin-right: 10px; color: var(--silver);} 
+  
+  /* Buttons */
+  @keyframes buttonHovered { 0% { border-radius: 30px 30px 30px 30px; } 100% { border-radius: 30px 30px 0 30px; }}
+  .button { border: none; display: inline-block; transition:color .4s ease-out,background-color .4s ease-out,border-color .4s ease-out,opacity .4s ease-out,color .4s ease-out,box-shadow .4s ease-out; text-decoration:none; font-family: var(--secondaryFont); text-align: center; border-radius: 0 30px 30px 30px; font-size: calc(var(--mainFontSize) * 1.5); padding: 15px 30px; cursor: pointer; font-weight: bold; }
+  .button:hover { animation: buttonHovered 0.5s 1 forwards; }
+  .button:focus { text-decoration: underline; box-shadow: 0 0 0 3px var(--people); outline: none; }
+  
+  .primary { background:linear-gradient(270deg,var(--purpose) 50%,var(--universe) 0); background-position:100%; background-size:200% 100%; color: var(--possibility); } 
+  .primary:hover { background-position:0; transition:all .25s ease; color: var(--possibility); } 
+  .primary:active { background: var(--growth); color: var(--possibility); } 
+  
+  .secondary { background:linear-gradient(270deg,var(--growth) 50%,var(--universe) 0); background-position:100%; background-size:200% 100%; color: var(--possibility); } 
+  .secondary:hover { background-position:0; transition:all .25s ease; color: var(--possibility);  } 
+  .secondary:active { background: var(--purpose); color: var(--possibility); } 
+  
+  .tertiary { padding: 14px 30px; background:linear-gradient(270deg,var(--possibility) 50%,var(--universe) 0); background-position:100%; background-size:202% 100%; color: var(--universe); border: 1px solid var(--universe); } 
+  .tertiary:hover { background-position:0; transition:all .25s ease; color: var(--possibility); } 
+  .tertiary:active { background: var(--growth); color: var(--possibility); } 
+ 
+
+/* Particples */
+
+
+/* ATOMS */
+
+/* Buttons */
+.btn-large { background: #0064aa; }
+.btn-large:hover { background: #fff; color: #0064aa; }
+
+
+/* MOLECULES */
+
+/* Card */
+.card .card-image { filter: grayscale(100%); }
+.card .card-title { font-weight: bold; font-size: 1.4em; }
+.card .card-action a { color: black; margin-right: 20px; text-decoration: underline; color: blue; }
+
+
+/* Notification */
+.notification { margin-bottom: 20px; }
+.notification p { color: #000; padding: 10px 20px; margin: 0; border-radius: 6px; }
+.notification .success { background: green; color: #fff; }
+.notification .warning { background: orange;}
+.notification .error { background: red; color: #fff; }
+
+/* Sharer */
+ul.share { list-style-type: none; padding: 0; margin: 0; }
+.page ul.share li { float: left;list-style-type: none; margin: 0 1em 0 0; line-height: 42px; }
+.page ul.share li a { height: 45px; line-height: 34px; padding: 0; width: 45px; }
+.page ul.share li a:hover { background: #0064aa; color: #fff; }
+ 
+/* Navigation */
+nav { background: #0064aa; }
+nav .brand-logo, nav .button-collapse i { font-size: 1.6rem; font-weight: 100; }
+nav .brand-logo img { width: 40px; margin: 7px 0 0 0; }
+nav .nav-wrapper li.active i { float: left; margin: 0 0.5em 0 0; }
+nav .nav-wrapper li.active a { color: #fff; }
+nav .nav-wrapper i { font-size: 1.4rem; }
+nav a:hover, nav .nav-wrapper li.active a:hover { color: #0064aa; background: #fff; }
+nav a#logo-container:hover { background: #0064aa; } 
+nav li.active a { color: #E61916; }
+nav a#logo-container { line-height: 25px; }
+#nav-mobile a { color: #000; font-weight: 400; padding: 0 5px; line-height: 54px; height: 54px; }
+
+/* Footer */
+footer { color: #fff; padding-top: 2em; background: #0064aa; }
+footer a { color: #212121; }
+footer p, footer .row { margin: 0; }
+footer p { color: #fff; }
+footer .madeby { text-align: center; font-size: 0.8em; padding: 1em 0; margin: 2em 0 0 0; }
+footer .brand img { width: 150px; text-align: center; }
+footer ul.social, footer .navigation ul { display:inline-table; }
+footer .social li, footer .navigation li { float: left; margin: 0 1em 0 0; }
+footer .navigation li { margin-right: 3em; }
+footer .navigation li a { text-decoration: none; }
+footer .social li:last-child, footer .navigation li:last-child { margin: 0; }
+footer .social li a { color: #fff; padding: 5px; width: 4em; line-height: 3.2em; height: 4em; float: left; background: url(../i/socialbutton.png) no-repeat top left; }
+footer .social li a:hover { color: #4A90E2; background: url(../i/socialbuttonon.png) no-repeat top left; }
+footer a { text-decoration: underline; color: #fff; }
+footer a:hover { text-decoration: none; color: #ccc; }
+
+/* Section */
+section { min-height: 80vh; width: 100%; }
+
+
+/* COMPOUNDS */
+header, footer { margin: 0; padding: 0; color: var(--possibility); }
+header { background: var(--purpose); }
+footer { background: var(--purpose); }
+
+
+/* PAGES */
+
+/* Page */
+.page article img { width: 100%; }
+.page article li { list-style-type: disc; margin: 0 0 0.6em 3em; padding: 0;}
+.page article .excerpt { font-size: 1.6rem; }
+.page article h1 { font-size: 3rem; margin-top: 0; }
+.page article h2 { font-size: 2rem; margin: 3rem 0 0 0; }
+.page article p, .page article li { font-size: 1.4rem; } 
+.page .backbutton { padding-left: 0; margin: 1em 0 0 0; }
+.page .backbutton i { margin-right: 5px; }
+.page p.right i { font-size: 16px; }
+.page p.readingTime { margin-top: 0; }
+.page iframe { width: 100%; border: 0; min-height: 400px; }
+
+/* Home page */
+.page-home header { height: 80vh; }
+.page-home header h1 { margin-top: 2em; }
+
+/* About page */
+.page-about p { margin-top: 0; }
+
+/* Page register */
+.page-register h1 { font-size: 2.6em; margin: 4em 0 0 0; }
+
+/* Page login */
+.page-login h1 { font-size: 2.6em; margin: 4em 0 0 0; }
+
+/* Page reset */
+.page-reset h1 { font-size: 2.6em; margin: 4em 0 0 0; }
+
+/* Admin page */
+.page-admin .card.small { height: auto; }
+
+/* Admin section */
+.admin h1 { margin: 0.5em 0 0 0; }
+
+/* Kitchen sink */
+.page-kitchenSink section { border: 1px solid #bbb; padding: 2em; min-height: auto; margin: 1em 0 1em 0; border-radius: 5px; }
+.page-kitchenSink section h3 { margin-bottom: 1.5em; }
+.page-kitchenSink section.colours span { line-height: 100px; text-align: center; float: left; width: 100px; height: 100px; border-radius: 50%; margin-right: 1em; border: 1px solid #bbb; }
+
+/* Desktop devices */
+@media only screen and (min-width : 992px) {
+    
+}
+
+/* Tablet devices */
+@media only screen and (max-width : 992px) {
+    footer p { text-align: center; }
+    header { background-attachment: scroll; }
+    footer p, footer .madeby { text-align: center; }  
+    h1 { font-size: 3em; margin: 0.4em 0; }    
+}
+
+/* Mobile styles */
+@media only screen and (max-width : 600px) {
+    nav .brand-logo, nav .button-collapse i { font-size: 1.6rem; }  
+    header { background-attachment: scroll; }
+    footer p, footer .madeby { text-align: center; }  
+    footer .navigation .links li { margin: 0 0 1em 0; float: none; }
+    footer .navigation .social li { margin-right: 1em;}
+    footer img { margin-top: 2em; }
+    footer .social li a { line-height: 3.5em; width: 4.2em; }
+    nav .brand-logo img { margin-top: 8px; }
+    h1 { font-size: 3em; }
+    h3 { font-size: 2.2em; }
+    .s12 .card.small .card-image { height: 230px; }    
+    .imageGrid div { width: 50%; }    
+}
