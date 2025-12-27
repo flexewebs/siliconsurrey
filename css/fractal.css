@@ -184,3 +184,7 @@ footer { background: var(--purpose); }
     .s12 .card.small .card-image { height: 230px; }    
     .imageGrid div { width: 50%; }    
 }
+
+.homepage * { text-align: center;}
+.homepage .even img { border-bottom-left-radius: 200px; border-top-right-radius: 200px;}
+.homepage .odd img { border-top-left-radius: 200px; border-bottom-right-radius: 200px;}
