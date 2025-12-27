@@ -11,30 +11,6 @@ include("p/header.php");
 include("p/navigation.php");
 ?>
 
-<section class="designedcompany">   
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <div class="graph">            
-                    <div class="col col1">
-                        <div class="systems aspect"><a href="#systems"><span class="label">Systems<span class="score">3</span></span></a></div>
-                        <div class="innovation aspect"><a href="#innovation"><span class="label">Innovation<span class="score">4</span></span></a></div>
-                    </div>
-                    <div class="col col2">
-                        <div class="people aspect"><a href="#people"><span class="label">People<span class="score">2</span></span></a></div>
-                        <div class="purpose aspect"><a href="#purpose"><span class="label">Purpose<span class="score">1</span></span></a></div>        
-                        <div class="products aspect"><a href="#products"><span class="label">Products<span class="score">5</span></span></a></div>                
-                    </div>
-                    <div class="col col3">
-                        <div class="growth aspect"><a href="#growth"><span class="label">Growth<span class="score">7</span></span></a></div>
-                        <div class="money aspect"><a href="#money"><span class="label">Money<span class="score">6</span></span></a></div>
-                    </div>  
-                </div>    
-            </div>                
-        </div>        
-    </div>
-</section>
-
 <section class="purpose" id="purpose">
     <div class="container">
         <div class="row">
