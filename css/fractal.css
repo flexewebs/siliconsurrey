@@ -105,7 +105,7 @@ footer a { text-decoration: underline; color: #fff; }
 footer a:hover { text-decoration: none; color: #ccc; }
 
 /* Section */
-section { min-height: 80vh; width: 100%; }
+section { min-height: 80vh; width: 100%; display: flex; align-items: center; }
 
 
 /* COMPOUNDS */
@@ -188,3 +188,4 @@ footer { background: var(--purpose); }
 .homepage * { text-align: center;}
 .homepage .even img { border-bottom-left-radius: 200px; border-top-right-radius: 200px;}
 .homepage .odd img { border-top-left-radius: 200px; border-bottom-right-radius: 200px;}
+.homepage .content { display: flex; align-items: center; }
