@@ -188,4 +188,6 @@ footer { background: var(--purpose); }
 .homepage * { text-align: center;}
 .homepage .even img { border-bottom-left-radius: 200px; border-top-right-radius: 200px;}
 .homepage .odd img { border-top-left-radius: 200px; border-bottom-right-radius: 200px;}
-.homepage .content { display: flex; align-items: center; }
+.homepage .content, .homepage .container .row { display: flex; align-items: center; }
+.homepage .container * { text-align: left;}
+.homepage .container p { margin-bottom: 2em;}
