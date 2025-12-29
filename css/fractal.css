@@ -191,3 +191,4 @@ footer { background: var(--purpose); }
 .homepage .content, .homepage .container .row { display: flex; align-items: center; }
 .homepage .container * { text-align: left;}
 .homepage .container p { margin-bottom: 2em;}
+.homepage .purpose h2, .homepage .purpose p, .homepage .systems h2, .homepage .systems p, .homepage .growth h2, .homepage .growth p { color: var(--possibility);}
