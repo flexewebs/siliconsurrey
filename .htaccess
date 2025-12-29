@@ -1,0 +1,6 @@
+RewriteEngine On
+
+Redirect /15min https://cal.com/silicon-surrey-576luf/15min
+Redirect /30min https://cal.com/silicon-surrey-576luf/30min
+Redirect /60min https://cal.com/silicon-surrey-576luf/60-min-chat
+Redirect /zoom http://jasongrant.in/zoom 
