@@ -192,3 +192,4 @@ footer { background: var(--purpose); }
 .homepage .container * { text-align: left;}
 .homepage .container p { margin-bottom: 2em;}
 .homepage .purpose h2, .homepage .purpose p, .homepage .systems h2, .homepage .systems p, .homepage .growth h2, .homepage .growth p { color: var(--possibility);}
+.homepage section img { width: 100%; }
