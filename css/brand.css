@@ -5,7 +5,6 @@ h2 { font-size: calc(var(--mainFontSize) * 4); line-height: calc(var(--mainFontS
 section.full { min-height: 100vh; }
 
 /* Navigation */
-nav { box-shadow: none; height: 11vh; background: var(--purpose); }
 nav svg { margin: 20px 0 0 3em; }
 nav a { float: right; margin: 15px 3em 0 0; }
 nav a:hover { background: var(--purpose); text-decoration: none; color: var(--possibility); }
