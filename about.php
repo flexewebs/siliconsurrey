@@ -1,5 +1,5 @@
 <?php include("com/header.php"); ?>
-<body class="homepage">
+<body class="about">
     <?php include("com/navigation.php"); ?>
 
     <h1>Story of Silicon Surrey</h1>

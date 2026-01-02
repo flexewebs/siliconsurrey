@@ -1,5 +1,5 @@
 <?php include("com/header.php"); ?>
-<body class="homepage">
+<body class="diary">
     <?php include("com/navigation.php"); ?>
 
     <h1>Diary</h1>
