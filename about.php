@@ -1,5 +1,5 @@
+<?php $pageClass = "about"; ?>
 <?php include("com/header.php"); ?>
-<body class="about">
     <?php include("com/navigation.php"); ?>
 
     <main>

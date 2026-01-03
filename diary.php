@@ -1,5 +1,5 @@
+<?php $pageClass = "diary"; ?>
 <?php include("com/header.php"); ?>
-<body class="diary">
     <?php include("com/navigation.php"); ?>
 
     <div class="container">
