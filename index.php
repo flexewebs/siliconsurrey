@@ -1,5 +1,5 @@
+<?php $pageClass = "homepage"; ?>
 <?php include("com/header.php"); ?>
-<body class="homepage">
     <?php include("com/navigation.php"); ?>
 
     <section class="purpose purposeBack">

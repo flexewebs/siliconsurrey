@@ -11,3 +11,4 @@
         <link href="css/fractal.css" type="text/css" rel="stylesheet" media="screen,projection"/>        
     <title>Silicon Surrey - Distributed startup incubator in Surrey</title>
 </head>
+<body class="<?php echo $pageClass; ?>">    
