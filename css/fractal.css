@@ -208,4 +208,6 @@ header span a { text-align: center !important; display: block; width: 100%; font
 .about main * { color: var(--possibility); }
 .about main { padding: 10px 0 2em 0;}
 
+.jobs section { min-height: auto; margin: 1em 0 3em 0; display: block; }
+.jobs main * { color: var(--universe);}
 nav a { margin: 0 1em;}
