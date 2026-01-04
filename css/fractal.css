@@ -203,6 +203,6 @@ header span a { text-align: center !important; display: block; width: 100%; font
 .homepage section img { width: 100%; }
 .diary section * { text-align: left; }
 .diary section { min-height: auto; margin: 1em 0 3em 0; }
-.diary time { display: block; margin: 1em 0 0 0; font-weight: bold;}
+.diary time { display: block; margin: 0.5em 0 0 0; font-weight: bold;}
 
 nav a { margin: 0 1em;}
