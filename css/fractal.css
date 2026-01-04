@@ -202,7 +202,7 @@ header span a { text-align: center !important; display: block; width: 100%; font
 .homepage .purpose h2, .homepage .purpose p, .homepage .systems h2, .homepage .systems p, .homepage .growth h2, .homepage .growth p { color: var(--possibility);}
 .homepage section img { width: 100%; }
 .diary section * { text-align: left; }
-.diary section { min-height: auto; margin: 1em 0; }
+.diary section { min-height: auto; margin: 1em 0 3em 0; }
 .diary time { display: block; margin: 1em 0 0 0; font-weight: bold;}
 
 nav a { margin: 0 1em;}
