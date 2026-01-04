@@ -187,7 +187,7 @@ footer { background: var(--purpose); }
 
 body { background: var(--universe);}
 body main * { color: var(--possibility);}
-header h1 { padding: 10px 0;}
+h1 { padding: 20px 0 10px 0;}
 header nav { border-top: 1px solid var(--dust); border-bottom: none; width: 100%;}
 header nav * { margin: 0; padding: 0; font-family: var(--secondaryFont); }
 header nav a:hover { color: var(--growth); }
@@ -202,5 +202,7 @@ header span a { text-align: center !important; display: block; width: 100%; font
 .homepage .purpose h2, .homepage .purpose p, .homepage .systems h2, .homepage .systems p, .homepage .growth h2, .homepage .growth p { color: var(--possibility);}
 .homepage section img { width: 100%; }
 .diary section * { text-align: left; }
+.diary section { min-height: auto; margin: 1em 0; }
+.diary time { display: block; margin: 1em 0 0 0; font-weight: bold;}
 
 nav a { margin: 0 1em;}

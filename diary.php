@@ -1,4 +1,4 @@
-<?php $pageClass = "diary"; ?>
+<?php $pageClass = "diary innovationBack"; ?>
 <?php include("com/header.php"); ?>
     <?php include("com/navigation.php"); ?>
 
