@@ -1,4 +1,4 @@
-<?php $pageClass = "jobs peopleBack"; ?>
+<?php $pageClass = "jobs growthBack"; ?>
 <?php include("com/header.php"); ?>
     <?php include("com/navigation.php"); ?>
 
