@@ -9,7 +9,8 @@
             <p class="flow-text">Jason went out networking in Central London today and met two Surrey based entrepreneurs who were very interested in Silicon Surrey.
                 One is based in Guildford and predominantly an investor and the other in Croydon and a founder of an AI based shipping optimisation company. Connections 
                 were made and follow ups will be happening soon. Jason also re-connected with his old colleague who is an HR specialist and whispered to her about Silicon Surrey.
-                She immediately loved the idea, especially the tagline of 'Redesigning humanity from Surrey'. 
+                She immediately loved the idea, especially the tagline of 'Redesigning humanity from Surrey'. Jason also spoke to Anothony Rose, founder of Seed Legals and 
+                told him about Silicon Surrey. He suggested Jason get in touch with professor from Surrey University who Jason met couple of times in the past.
                 <time datetime="2026-01-03">Mon, 5 January 2026</time>
             </p>
         </section>
