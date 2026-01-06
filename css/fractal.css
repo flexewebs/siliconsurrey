@@ -210,6 +210,10 @@ header span a { text-align: center !important; display: block; width: 100%; font
 .about main * { color: var(--possibility); }
 .about main { padding: 10px 0 2em 0;}
 
+.people main { padding: 10px 0 2em 0;}
+.people main h2 { margin-top: 20px}
+.people main * { color: var(--universe);}
+
 .jobs section { min-height: auto; margin: 1em 0 3em 0; display: block; }
-.jobs main * { color: var(--universe);}
+.jobs main * { color: var(--possibility);}
 nav a { margin: 0 1em;}
