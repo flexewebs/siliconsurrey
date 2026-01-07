@@ -6,12 +6,19 @@
     <div class="container">
         <h1>Diary</h1>
         <section>
+            <p class="flow-text">Jason reached out to several other contacts in Surrey and followed up with contacts from yesterday's networking event. Also had a pretty
+                long conversation with a friend about what makes Silicon Surrey idea be appealing and what are its main challenges. Surrey offers a unique set of 
+                characteristics to it and, as such, inspires different kinds of innovation which is a lot more 'natural' to happen from Surrey than other areas.
+                <time datetime="2026-01-06">Tue, 6 January 2026</time>
+            </p>
+        </section>
+        <section>
             <p class="flow-text">Jason went out networking in Central London today and met two Surrey based entrepreneurs who were very interested in Silicon Surrey.
                 One is based in Guildford and predominantly an investor and the other in Croydon and a founder of an AI based shipping optimisation company. Connections 
                 were made and follow ups will be happening soon. Jason also re-connected with his old colleague who is an HR specialist and whispered to her about Silicon Surrey.
                 She immediately loved the idea, especially the tagline of 'Redesigning humanity from Surrey'. Jason also spoke to Anothony Rose, founder of Seed Legals and 
                 told him about Silicon Surrey. He suggested Jason get in touch with professor from Surrey University who Jason met couple of times in the past.
-                <time datetime="2026-01-03">Mon, 5 January 2026</time>
+                <time datetime="2026-01-05">Mon, 5 January 2026</time>
             </p>
         </section>
         <section>
