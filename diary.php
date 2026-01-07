@@ -6,6 +6,15 @@
     <div class="container">
         <h1>Diary</h1>
         <section>
+            <p class="flow-text">Jason's friend who was yesterday sceptical idea is today a lot more friendly about it, as he had time to contemplate on the power 
+                of locally driven innovation. Jason also started the process of future authoring the vision of Silicon Surrey 2035, which is an exercise that worked 
+                very well for Roli to help them become Apple partners worldwide when he worked as a consultant for them. The initial web page for future vision is now 
+                deployed, but needs more fleshing out in next few days. Another school friend of Jason's thinks the idea is great. There is also an emerging idea of 
+                creating a petition of supporters of the idea, for those who simply want to be on the supporters list. Something to further develop soon. 
+                <time datetime="2026-01-07">Wed, 7 January 2026</time>
+            </p>
+        </section>
+        <section>
             <p class="flow-text">Jason reached out to several other contacts in Surrey and followed up with contacts from yesterday's networking event. Also had a pretty
                 long conversation with a friend about what makes Silicon Surrey idea be appealing and what are its main challenges. Surrey offers a unique set of 
                 characteristics to it and, as such, inspires different kinds of innovation which is a lot more 'natural' to happen from Surrey than other areas.
