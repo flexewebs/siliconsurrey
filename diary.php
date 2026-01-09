@@ -6,6 +6,12 @@
     <div class="container">
         <h1>Diary</h1>
         <section>
+            <p class="flow-text">Another meeting set up for next week to talk about Silicon Surrey strategy with one of the highly experienced local 
+                startup advisors. Two other people have said that they think the idea is very interesting. Need to work on setting up the petition. 
+                <time datetime="2026-01-09">Fri, 9 January 2026</time>
+            </p>
+        </section>
+        <section>
             <p class="flow-text">Jason's friend who was yesterday sceptical idea is today a lot more friendly about it, as he had time to contemplate on the power 
                 of locally driven innovation. Jason also started the process of future authoring the vision of Silicon Surrey 2035, which is an exercise that worked 
                 very well for Roli to help them become Apple partners worldwide when he worked as a consultant for them. The initial web page for future vision is now 
