@@ -6,6 +6,14 @@
     <div class="container">
         <h1>Diary</h1>
         <section>
+            <p class="flow-text">The weekend was spent with family and friends, so not much progress on Silicon Surrey front. This is informative as to 
+                what kind of innovation is relevant for Surrey. Spending quality time with people is part of what we want to amplify across the county. 
+                It's a massive part of wellness and happiness and healthy community. Part of the ongoing research and shaping this idea is to observe 
+                what healthy life is really about and then look to amplify more of it.
+                <time datetime="2026-01-12">Mon, 12 January 2026</time>
+            </p>
+        </section>
+        <section>
             <p class="flow-text">Another meeting set up for next week to talk about Silicon Surrey strategy with one of the highly experienced local 
                 startup advisors. Two other people have said that they think the idea is very interesting. Need to work on setting up the petition. 
                 <time datetime="2026-01-09">Fri, 9 January 2026</time>
