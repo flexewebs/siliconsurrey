@@ -30,6 +30,13 @@
             through further innovation. True breakthroughs will come from areas which initially feel weird, highly unusual and 
             even seemingly irrelevant. Yet those are the areas which we need to explore the most.
         </p>
+
+        <h2>Areas of interest</h2>
+        <p class="flow-text">TLDR: We can focus on farming, nature, wellness, transportation, energy and community.</p>
+        <p class="flow-text">Distributed nature of Silicon Surrey means that we can also distribute what we focus on both in terms of 
+            themes as well as implementation. Take AI for example. What if AI capacity was distributed across Surrey? What if farming products 
+        were fully distributed across Surrey? What if wellness provision and capabilities were fully distributed across Surrey? This kind of thinking
+    potentially brings about new kind of ideas around what seem like typical domains.</p>
         
     </div>
     </main>
