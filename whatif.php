@@ -38,12 +38,24 @@
         </section>
 
         <section>
-        <h2>Areas of interest</>
+        <h2>Areas of interest</h2>
         <h3>TLDR: We can focus on farming, nature, wellness, transportation, energy and community.</h3>
         <p class="flow-text">Distributed nature of Silicon Surrey means that we can also distribute what we focus on both in terms of 
             themes as well as implementation. Take AI for example. What if AI capacity was distributed across Surrey? What if farming products 
         were fully distributed across Surrey? What if wellness provision and capabilities were fully distributed across Surrey? This kind of thinking
     potentially brings about new kind of ideas around what seem like typical domains.</p>
+        </section>
+
+        <section>
+        <h2>What healthy future is like</h2>
+        <h3>TLDR: For truly healthy and successful future we should think holistically.</h3>
+        <p class="flow-text">Holistic thinking is the way forward in the world. Ecosystems first. Healthy future starts from healthy 
+            and clean environment. Startups should innovate to extend that healthy environment and where necessary enable creation of
+            the healthy environment where it is missing. What does a river filtering product look and work like? How do we create something
+            which helps keep our rivers clean? What about something that helps monitor the fish population in the river? Water quality?
+            What about river transporation which enables safe, enoyable and sustainable river travel while maybe also cleaning the river 
+            in the process? 
+        </p>
         </section>
         
     </div>
